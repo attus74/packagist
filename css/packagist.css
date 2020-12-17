@@ -142,13 +142,11 @@ nav.action-links li a {
   border-radius: 1em; }
 
 div.field--name-project-packages div.field__items {
-  border: 3px double #d00;
   float: left;
-  width: calc(100% - 80px);
+  width: calc(100% - 88px);
   margin: 0;
   padding: 0; }
   div.field--name-project-packages div.field__items > div.field__item {
-    border: 1px dashed #007;
     padding: 16px; }
     div.field--name-project-packages div.field__items > div.field__item div.field--name-version {
       border-top: 1px solid #f57c00;
@@ -168,10 +166,16 @@ div.field--name-project-packages div.field__items {
         div.field--name-project-packages div.field__items > div.field__item div.field--name-package-composer div.field__item div.item-list {
           flex: 1 1 auto; }
 div.field--name-project-packages ul.packages-version-list {
-  border: 3px double #d00;
   float: right;
-  width: 64px;
+  width: 72px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  list-style: none; }
+  div.field--name-project-packages ul.packages-version-list li {
+    text-align: right;
+    padding: 4px 8px;
+    cursor: pointer; }
+    div.field--name-project-packages ul.packages-version-list li.active {
+      background-color: #ffab40; }
 
 /*# sourceMappingURL=packagist.css.map */
