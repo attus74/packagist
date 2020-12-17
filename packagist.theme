@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Packagist
+ *
+ * @author Attila Németh
+ * 16.12.2020
+ */
+
+/**
+ * Implements hook_preprocess_HOOK()
+ */
+function packagist_preprocess_field(array &$variables): void
+{
+//  $variables['attributes']['data-packagist-version'] = $variables['elements']['#composer_package']
+//      ->get('version')->first()->get('value')->getValue();
+    var_dump($variables);
+}

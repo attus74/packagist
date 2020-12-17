@@ -1,0 +1,40 @@
+html {
+  body {
+    div {
+      &.layout-container {
+        header {
+          background-color: $header-background;
+          color: $header-foreground;
+          nav {
+            ul {
+              &.menu {
+                margin-top: 0;
+                margin-bottom: 0;
+                li {
+                  display: inline-block;
+                  margin-left: 16px;
+                  padding-top: 0.2em;
+                  padding-bottom: 0.2em;
+                  a {
+                    color: $header-foreground;
+                    text-decoration: none;
+                  }
+                }
+              }
+            }
+          }
+          div {
+            &.site-name {
+              a {
+                color: $header-foreground;
+                text-decoration: none;
+                font-size: 1.4em;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

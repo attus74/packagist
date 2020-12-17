@@ -1,0 +1,17 @@
+html {
+  body {
+    div {
+      &.layout-container {
+        & > footer {
+          clear: both;
+          background-color: $header-background;
+          color: $header-foreground;
+          a {
+            color: $header-foreground;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

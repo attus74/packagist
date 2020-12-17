@@ -1,0 +1,20 @@
+ul {
+  &.tabs {
+    background-color: $body-primary-color-accent;
+    margin: 8px 0;
+    padding: 0 8px;
+    li {
+      padding: 8px 0;
+      &.is-active {
+        padding-bottom: 6px;
+        border-bottom: 2px solid $body-foreground;
+      }
+      a {
+        &:link, &:visited, &:hover, &:active {
+          color: $body-foreground;
+          background-color: initial;
+        }
+      }
+    }
+  }
+}

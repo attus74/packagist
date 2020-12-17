@@ -1,0 +1,12 @@
+## Libraries
+---
+
+base:
+  css:
+    theme:
+      css/packagist.css: {}
+packages:
+  js:
+    js/packagist_packages.js: {}
+  dependencies:
+    - core/jquery
