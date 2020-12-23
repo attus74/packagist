@@ -178,4 +178,38 @@ div.field--name-project-packages ul.packages-version-list {
     div.field--name-project-packages ul.packages-version-list li.active {
       background-color: #ffab40; }
 
+div#packages-home-search-wrapper {
+  background-color: #ffab40;
+  padding: 2rem 0;
+  transition: padding-top 250ms, padding-bottom 250ms; }
+  div#packages-home-search-wrapper input#packages-home-search {
+    display: block;
+    border: none;
+    border-radius: 2px;
+    width: 32rem;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 24px;
+    transition: font-size 200ms, padding 200ms; }
+  div#packages-home-search-wrapper.active {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: padding-top 200ms, padding-bottom 200ms; }
+    div#packages-home-search-wrapper.active input#packages-home-search {
+      font-size: 16px;
+      padding: 4px; }
+
+div.composer-project.composer-project-teaser {
+  padding: 16px 0;
+  margin: 16px 0;
+  border-bottom: 1px solid #9a9a9a; }
+  div.composer-project.composer-project-teaser:last-child {
+    border-bottom: none; }
+  div.composer-project.composer-project-teaser .field--name-title {
+    font-size: 1.45rem; }
+  div.composer-project.composer-project-teaser .field--name-project-description {
+    font-size: initial;
+    line-height: 1.45em; }
+
 /*# sourceMappingURL=packagist.css.map */
