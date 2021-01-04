@@ -165,6 +165,11 @@ div.field--name-project-packages div.field__items {
         flex-direction: row; }
         div.field--name-project-packages div.field__items > div.field__item div.field--name-package-composer div.field__item div.item-list {
           flex: 1 1 auto; }
+    div.field--name-project-packages div.field__items > div.field__item p.composer {
+      font-style: italic;
+      font-size: 1.25em;
+      margin: 0;
+      padding: 0.5em 0; }
 div.field--name-project-packages ul.packages-version-list {
   float: right;
   width: 72px;
