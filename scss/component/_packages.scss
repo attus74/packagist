@@ -21,6 +21,10 @@ div {
                   }
                 }
               }
+              &.field--name-created {
+                text-align: right;
+                font-style: italic;
+              }
               &.field--name-package-composer {
                 border-top: 1px solid $body-primary-color;
                 border-bottom: 1px solid $body-primary-color;

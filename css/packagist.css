@@ -155,6 +155,9 @@ div.field--name-project-packages div.field__items {
       padding: 8px 0; }
       div.field--name-project-packages div.field__items > div.field__item div.field--name-version div.field__item {
         font-weight: bold; }
+    div.field--name-project-packages div.field__items > div.field__item div.field--name-created {
+      text-align: right;
+      font-style: italic; }
     div.field--name-project-packages div.field__items > div.field__item div.field--name-package-composer {
       border-top: 1px solid #f57c00;
       border-bottom: 1px solid #f57c00;
