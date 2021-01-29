@@ -3,8 +3,6 @@ html body div.layout-container header {
   left: 0;
   right: 0;
   z-index: 9; }
-  html body div.layout-container header header {
-    top: 0; }
   @media (max-width: 599px) {
     html body div.layout-container header div.region {
       margin: 0 16px; } }
@@ -73,9 +71,11 @@ html body div.layout-container footer {
   html body div.layout-container footer div.region nav {
     display: inline-block; }
 
-html body.user-logged-in header {
+html body div.layout-container header {
+  top: 0; }
+html body.user-logged-in div.layout-container header {
   top: 39px; }
-html body.user-logged-in.toolbar-tray-open.toolbar-horizontal header {
+html body.user-logged-in.toolbar-tray-open.toolbar-horizontal div.layout-container header {
   top: 79px; }
 
 html body div.layout-container header {

@@ -1,6 +1,10 @@
 @mixin packagist-header-position($top: 0) {
-  header {
-    top: $top;
+  div {
+    &.layout-container {
+      header {
+        top: $top;
+      }
+    }
   }
 }
 
@@ -31,7 +35,6 @@ html {
       &.layout-container {
         header {
           position: fixed;
-          @include packagist-header-position;
           left: 0;
           right: 0;
           z-index: 9;
@@ -78,6 +81,7 @@ html {
 
 html {
   body {
+    @include packagist-header-position();
     &.user-logged-in {
       @include packagist-header-position(39px);
       &.toolbar-tray-open {

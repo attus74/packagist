@@ -9,4 +9,5 @@ packages:
   js:
     js/packagist_packages.js: {}
   dependencies:
+    - core/drupal
     - core/jquery
