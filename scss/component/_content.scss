@@ -16,5 +16,13 @@ div {
     font-style: italic;
     line-height: 2em;
     font-size: 1.2em;
+    pre {
+      &.code {
+        padding: 0.5rem;
+        font-size: 0.85em;
+        line-height: 1.2em;
+        font-style: normal;
+      }
+    }
   }
 }
