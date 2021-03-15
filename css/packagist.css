@@ -73,9 +73,9 @@ html body div.layout-container footer {
 
 html body div.layout-container header {
   top: 0; }
-html body.user-logged-in div.layout-container header {
+html body.toolbar-fixed div.layout-container header {
   top: 39px; }
-html body.user-logged-in.toolbar-tray-open.toolbar-horizontal div.layout-container header {
+html body.toolbar-fixed.toolbar-tray-open.toolbar-horizontal div.layout-container header {
   top: 79px; }
 
 html body div.layout-container header {
@@ -224,5 +224,13 @@ div.composer-project.composer-project-teaser {
   div.composer-project.composer-project-teaser .field--name-project-description {
     font-size: initial;
     line-height: 1.45em; }
+
+form div.form-item label {
+  display: block;
+  margin: 0;
+  padding: 0.5rem 0; }
+form div.form-item div.description {
+  padding: 0.5rem;
+  font-style: italic; }
 
 /*# sourceMappingURL=packagist.css.map */
