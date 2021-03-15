@@ -225,4 +225,12 @@ div.composer-project.composer-project-teaser {
     font-size: initial;
     line-height: 1.45em; }
 
+form div.form-item label {
+  display: block;
+  margin: 0;
+  padding: 0.5rem 0; }
+form div.form-item div.description {
+  padding: 0.5rem;
+  font-style: italic; }
+
 /*# sourceMappingURL=packagist.css.map */
