@@ -73,9 +73,9 @@ html body div.layout-container footer {
 
 html body div.layout-container header {
   top: 0; }
-html body.user-logged-in div.layout-container header {
+html body.toolbar-fixed div.layout-container header {
   top: 39px; }
-html body.user-logged-in.toolbar-tray-open.toolbar-horizontal div.layout-container header {
+html body.toolbar-fixed.toolbar-tray-open.toolbar-horizontal div.layout-container header {
   top: 79px; }
 
 html body div.layout-container header {

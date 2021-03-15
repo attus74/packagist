@@ -82,7 +82,7 @@ html {
 html {
   body {
     @include packagist-header-position();
-    &.user-logged-in {
+    &.toolbar-fixed {
       @include packagist-header-position(39px);
       &.toolbar-tray-open {
         &.toolbar-horizontal {
