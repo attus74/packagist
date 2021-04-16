@@ -30,6 +30,20 @@ div {
                 border-bottom: 1px solid $body-primary-color;
                 margin: 8px 0;
                 padding: 8px 0;
+                &.field__item {
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  div {
+                    &.item-list {
+                      flex: 1 1 auto;
+                      width: 50%;
+                    }
+                    &.composer-extra {
+                      width: 100%;
+                    }
+                  }
+                }
                 div {
                   &.field__item {
                     display: flex;

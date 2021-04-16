@@ -168,6 +168,15 @@ div.field--name-project-packages div.field__items {
       border-bottom: 1px solid #f57c00;
       margin: 8px 0;
       padding: 8px 0; }
+      div.field--name-project-packages div.field__items > div.field__item div.field--name-package-composer.field__item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; }
+        div.field--name-project-packages div.field__items > div.field__item div.field--name-package-composer.field__item div.item-list {
+          flex: 1 1 auto;
+          width: 50%; }
+        div.field--name-project-packages div.field__items > div.field__item div.field--name-package-composer.field__item div.composer-extra {
+          width: 100%; }
       div.field--name-project-packages div.field__items > div.field__item div.field--name-package-composer div.field__item {
         display: flex;
         flex-direction: row; }
